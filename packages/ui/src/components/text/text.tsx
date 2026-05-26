@@ -30,10 +30,9 @@ const weightStyles: Record<string, string> = {
 }
 
 export const Text = forwardRef<HTMLElement, TextProps>(
-  ({ children, as = 'p', size = 'md', color = 'default', weight = 'normal', className }, ref) => {
-    const Tag = as as keyof JSX.IntrinsicElements
+  ({ children, as: Tag = 'p', size = 'md', color = 'default', weight = 'normal', className }, ref) => {
     return (
-      <Tag ref={ref as any} className={cn(sizeStyles[size], colorStyles[color], weightStyles[weight], className)}>
+      <Tag ref={ref as React.Ref<never>} className={cn(sizeStyles[size], colorStyles[color], weightStyles[weight], className)}>
         {children}
       </Tag>
     )

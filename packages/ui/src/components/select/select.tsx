@@ -62,7 +62,9 @@ export function Select({
     children: (item: SelectItem) => <Item key={item.key}>{item.label}</Item>,
     items,
     selectedKey,
-    onSelectionChange: onSelectionChange as ((key: Key) => void) | undefined,
+    onSelectionChange: onSelectionChange
+      ? (key: Key | null) => { if (key !== null) onSelectionChange(String(key)) }
+      : undefined,
     isDisabled,
     isRequired,
   })
@@ -72,8 +74,6 @@ export function Select({
       label,
       isDisabled,
       isRequired,
-      children: (item: SelectItem) => <Item key={item.key}>{item.label}</Item>,
-      items,
     },
     state,
     triggerRef,
