@@ -1,0 +1,124 @@
+:root {
+  /* Primary - Untitled UI uses a clean indigo/blue */
+  --rds-color-primary-25: #f5f8ff;
+  --rds-color-primary-50: #eef4ff;
+  --rds-color-primary-100: #d1e0ff;
+  --rds-color-primary-200: #b2ccff;
+  --rds-color-primary-300: #84adff;
+  --rds-color-primary-400: #528bff;
+  --rds-color-primary-500: #2970ff;
+  --rds-color-primary-600: #155eef;
+  --rds-color-primary-700: #004eeb;
+  --rds-color-primary-800: #0040c1;
+  --rds-color-primary-900: #00359e;
+  --rds-color-primary-950: #002266;
+
+  --rds-color-secondary-25: #fcfcfd;
+  --rds-color-secondary-50: #f9fafb;
+  --rds-color-secondary-100: #f2f4f7;
+  --rds-color-secondary-200: #eaecf0;
+  --rds-color-secondary-300: #d0d5dd;
+  --rds-color-secondary-400: #98a2b3;
+  --rds-color-secondary-500: #667085;
+  --rds-color-secondary-600: #475467;
+  --rds-color-secondary-700: #344054;
+  --rds-color-secondary-800: #182230;
+  --rds-color-secondary-900: #101828;
+  --rds-color-secondary-950: #0c111d;
+
+  --rds-color-destructive-25: #fffbfa;
+  --rds-color-destructive-50: #fef3f2;
+  --rds-color-destructive-100: #fee4e2;
+  --rds-color-destructive-200: #fecdca;
+  --rds-color-destructive-300: #fda29b;
+  --rds-color-destructive-400: #f97066;
+  --rds-color-destructive-500: #f04438;
+  --rds-color-destructive-600: #d92d20;
+  --rds-color-destructive-700: #b42318;
+  --rds-color-destructive-800: #912018;
+  --rds-color-destructive-900: #7a271a;
+  --rds-color-destructive-950: #55160c;
+
+  --rds-color-success-25: #f6fef9;
+  --rds-color-success-50: #ecfdf3;
+  --rds-color-success-100: #dcfae6;
+  --rds-color-success-200: #abefc6;
+  --rds-color-success-300: #75e0a7;
+  --rds-color-success-400: #47cd89;
+  --rds-color-success-500: #17b26a;
+  --rds-color-success-600: #079455;
+  --rds-color-success-700: #067647;
+  --rds-color-success-800: #085d3a;
+  --rds-color-success-900: #074d31;
+  --rds-color-success-950: #053321;
+
+  --rds-color-warning-25: #fffcf5;
+  --rds-color-warning-50: #fffaeb;
+  --rds-color-warning-100: #fef0c7;
+  --rds-color-warning-200: #fedf89;
+  --rds-color-warning-300: #fec84b;
+  --rds-color-warning-400: #fdb022;
+  --rds-color-warning-500: #f79009;
+  --rds-color-warning-600: #dc6803;
+  --rds-color-warning-700: #b54708;
+  --rds-color-warning-800: #93370d;
+  --rds-color-warning-900: #7a2e0e;
+  --rds-color-warning-950: #4e1d09;
+
+  --rds-color-background: #ffffff;
+  --rds-color-foreground: #101828;
+  --rds-color-muted: #f9fafb;
+  --rds-color-muted-foreground: #667085;
+  --rds-color-border: #eaecf0;
+  --rds-color-ring: #2970ff;
+  --rds-color-input: #d0d5dd;
+
+  --rds-font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --rds-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --rds-font-size-xs: 0.75rem;
+  --rds-font-size-sm: 0.875rem;
+  --rds-font-size-md: 1rem;
+  --rds-font-size-lg: 1.125rem;
+  --rds-font-size-xl: 1.25rem;
+  --rds-font-size-2xl: 1.5rem;
+  --rds-font-size-3xl: 1.875rem;
+  --rds-font-size-4xl: 2.25rem;
+  --rds-font-weight-normal: 400;
+  --rds-font-weight-medium: 500;
+  --rds-font-weight-semibold: 600;
+  --rds-font-weight-bold: 700;
+  --rds-line-height-tight: 1.25;
+  --rds-line-height-normal: 1.5;
+  --rds-line-height-relaxed: 1.75;
+
+  --rds-spacing-0: 0;
+  --rds-spacing-0-5: 0.125rem;
+  --rds-spacing-1: 0.25rem;
+  --rds-spacing-1-5: 0.375rem;
+  --rds-spacing-2: 0.5rem;
+  --rds-spacing-2-5: 0.625rem;
+  --rds-spacing-3: 0.75rem;
+  --rds-spacing-3-5: 0.875rem;
+  --rds-spacing-4: 1rem;
+  --rds-spacing-5: 1.25rem;
+  --rds-spacing-6: 1.5rem;
+  --rds-spacing-8: 2rem;
+  --rds-spacing-10: 2.5rem;
+  --rds-spacing-12: 3rem;
+  --rds-spacing-16: 4rem;
+
+  --rds-radius-none: 0;
+  --rds-radius-sm: 0.25rem;
+  --rds-radius-md: 0.5rem;
+  --rds-radius-lg: 0.75rem;
+  --rds-radius-xl: 1rem;
+  --rds-radius-2xl: 1.5rem;
+  --rds-radius-full: 9999px;
+
+  --rds-shadow-xs: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  --rds-shadow-sm: 0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px -1px rgba(16, 24, 40, 0.1);
+  --rds-shadow-md: 0 4px 8px -2px rgba(16, 24, 40, 0.1), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+  --rds-shadow-lg: 0 12px 16px -4px rgba(16, 24, 40, 0.08), 0 4px 6px -2px rgba(16, 24, 40, 0.03);
+  --rds-shadow-xl: 0 20px 24px -4px rgba(16, 24, 40, 0.08), 0 8px 8px -4px rgba(16, 24, 40, 0.03);
+  --rds-shadow-2xl: 0 24px 48px -12px rgba(16, 24, 40, 0.18);
+}
